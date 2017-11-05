@@ -1,0 +1,269 @@
+/* 
+    Created on : Oct 19, 2017, 4:51:47 PM
+    Author     : hackey.jay
+*/
+.cart-lst {
+	height: 300px;
+	border-bottom: 1px solid #fff;
+	margin-top: 50px;
+        color: #fff;
+}
+.cart-lst img{
+    width: 200px;
+    height: 220px;
+}
+.cart-items {
+	margin: 50px;
+        color: #fff;
+}
+.all-cnt {
+	position: absolute;
+        width: 80%;
+}
+.cart-img {
+	float: left;
+}
+
+.control-cart {
+	float: right;
+	color: #000;
+	position: relative;
+	width: 150px;
+}
+.inner-cart {
+	background-color: #353535;
+	height: 250px;
+	padding: 15px;
+	border-radius: 10px;
+}
+.cart-txt {
+	position: relative;
+	left: 30px;
+}
+.btn-order {
+	float: left;
+	padding-right: 15px;
+}
+
+.control-cart-all {
+  padding: 8px;
+}
+.btn-order-all {
+  position: absolute;
+}
+.btn-order-cancel-all {
+	position: relative;
+	float: right;
+}
+.control-inner {
+	width: 180px;
+	position: absolute;
+	right: 60px;
+}
+
+.order-prd-all {
+    display: none;
+	color: #fff;
+	position: absolute;
+	z-index: 3;
+	right: 10px;
+	background-color: #004069;
+	margin-bottom: 14px;
+	height: auto;
+	padding: 10px;
+}
+.inner-order {
+	width: 260px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid;
+	height: 80px;
+	margin-top: 10px;
+}
+
+.img-order {
+	position: relative;
+	float: left;
+	width: 50px;
+	height: 50px;
+}
+.img-order img {
+	width: 50px;
+	height: 50px;
+}
+.price-order {
+	float: right;
+	background-color: #286090;
+	border: none;
+	border-radius: 10px;
+	width: 60px;
+	text-align: center;
+}
+.name-order {
+	float: left;
+	margin-left: 15px;
+	width: 130px;
+	word-wrap: break-word;
+	height: 50px;
+	overflow: hidden;
+}
+.anot-shop {
+	height: 30px;
+	background-color: #0000004D;
+	padding: 5px;
+	border-radius: 15px;
+	text-align: center;
+}
+.chk-out {
+	position: absolute;
+}
+.total-prc {
+	float: right;
+}
+.my-p {
+	margin: 2px;
+}
+.shipping-inner {
+	margin-top: 80px;
+	margin-left: 60px;
+}
+.adtxt {
+	width: 280px !important;
+	resize: none;
+	height: 150px !important;
+}
+.naddress {
+	width: 280px !important;
+}
+.odaddress {
+	width: 200px;
+}
+.btn-address {
+	clear: both;
+	float: right;
+	margin-top: 6px;
+	margin-right: 20px;
+}
+.shipping-mode-pay-1 {
+	float: right;
+	margin-left: 10px;
+}
+.shipping-mode-pay {
+	float: left;
+}
+.shipping-mode-pay-0 {
+	width: 200px;
+	float: left;
+}
+.shipping-mode-pay-1 input {
+	width: 100px;
+}
+#expireMM {
+	width: auto;
+	float: left;
+	margin-left: 6px;
+}
+#expireYY {
+	width: auto;
+	margin-left: 6px;
+	float: left;
+}
+.Exp-shipping label {
+	float: left;
+	margin-top: 6px;
+}
+.address {
+	width: 300px;
+	float: left;
+	margin-bottom: 10px;
+	height: 400px;
+	margin-bottom: 100px;
+}
+.smt-pmt {
+	clear: both;
+	text-align: center;
+}
+.smt-pmt input {
+	width: 320px !important;
+	margin-top: 50px;
+}
+
+.shipping-payment {
+	float: left;
+	margin-left: 400px;
+	margin-bottom: 100px;
+	box-shadow: 0 0 7px 1px gray;
+}
+.shipping-mode-pay h3 {
+	margin: 0 auto;
+	text-align: center;
+	background-color: gray;
+}
+.mrg-gt {
+	padding: 30px;
+}
+.card-hd-name {
+	height: 70px;
+}
+.fold-card {
+	height: 80px;
+}
+.invoice-inner {
+	width: 500px;
+	height: auto;
+	margin-left: 50px;
+	margin-top: 50px;
+	padding: 20px;
+	box-shadow: 0 0px 10px 1px gray;
+	padding-bottom: 50px;
+}
+.invoice-logo {
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+	border-radius: 25px;
+	margin-bottom: 10px;
+	float: left;
+}
+.Address-invoice {
+	border-top: 1px solid;
+        clear: both;
+}
+.address-inner {
+	width: 200px;
+}
+.inner-address {
+	width: 200px;
+	float: left;
+}
+.bto p {
+	border-bottom: 0.5px solid gray;
+	padding-bottom: 10px;
+}
+.all-prod table td {
+	padding-right: 27px;
+}
+.all-prod table thead tr {
+	background-color: #ddd;
+}
+.all-prod table tbody tr {
+	border-bottom: 1px solid #8a8a8a;
+}
+.all-prod tfoot tr {
+	background-color: #ddd;
+}
+.all-prod tfoot td {
+	padding-top: 10px;
+}
+.book {
+	float: right;
+}
+.Grand-total {
+	margin-top: 150px;
+	border-bottom: 1px solid;
+}
+.print input {
+	float: right;
+}
+.time {
+	float: right;
+}

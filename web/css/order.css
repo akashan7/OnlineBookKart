@@ -1,0 +1,131 @@
+/* 
+    Created on : Oct 21, 2017, 9:20:48 PM
+    Author     : hackey.jay
+*/
+.Order-page {
+	color: #fff;
+}
+.frm-in table td {
+	width: 360px;
+	padding: 5px;
+}
+.order0cnt {
+	position: relative;
+	margin-left: 100px;
+	width: 400px;
+	margin-top: 80px;
+	border: none;
+	box-shadow: 0 0px 10px 1px gray;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+.order0cnt h2 {
+	text-align: center;
+	background-color: dimgray;
+	margin: 0 auto;
+}
+.frm-in table tr:last-child {
+	text-align: end;
+}
+textarea.form-control {
+	resize: none;
+	height: 100px !important;
+}
+.frm-order {
+	padding: 20px;
+}
+.sub-total {
+	margin-left: 100px;
+	width: 300px;
+	margin-top: 80px;
+	border: none;
+	box-shadow: 0 0px 10px 1px gray;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	right: 100px;
+	position: absolute;
+	top: 160px;
+}
+.inner-ord-bill {
+	width: 80%;
+}
+.sub-total h2 {
+	text-align: center;
+	background-color: dimgray;
+	margin: 0 auto;
+}
+.prd-sub {
+	position: relative;
+	width: 300px;
+	padding: 5px;
+	border-bottom: 1px solid;
+	height: 100px;
+}
+.nme {
+	height: 50px;
+	width: 180px;
+	word-wrap: break-word;
+	overflow: hidden;
+	position: absolute;
+	margin-left: 40px;
+}
+.qty {
+	float: left;
+	width: 40px;
+}
+.prc-sub-id {
+	width: 70px;
+	float: right;
+}
+.prc-sub-total {
+	float: right;
+	position: relative;
+	right: 15px;
+}
+.total {
+	position: absolute;
+}
+.final-sub {
+	padding: 5px;
+}
+.err {
+	float: right;
+        color: red;
+}
+.err-sm {
+	float: left;
+        color: red;
+}
+
+
+.all-details {
+  width: 80%;
+  margin-left: 100px;
+}
+.right-order {
+  float: right;
+  position: relative;
+  width: 200px;
+}
+.all-orders {
+    position: relative;
+    width: 80%;
+    text-align: center;
+}
+
+.end-pr {
+  float: right;
+}
+
+.first-span {
+  float: left;
+}
+
+.all-orders table tr td,.all-orders th {
+	padding-left: 60px;
+	padding-bottom: 15px;
+}
+.bt-cr {
+    cursor : default !important;
+	
+}

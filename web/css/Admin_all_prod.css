@@ -1,0 +1,167 @@
+/* 
+    Created on : Oct 18, 2017, 3:16:03 PM
+    Author     : hackey.jay
+*/
+.table_data{
+    background-color: #a1a2a5;
+}
+.table_data,.table_data td{
+    border-bottom: 1px #898989 solid;
+    border-collapse: collapse;
+    padding: 3px;
+    padding-left: 5px;
+}
+.table_data{        
+    white-space: nowrap;    
+    width: 100%;
+}
+.table_data thead tr {
+	text-align: center;
+}
+.table_data thead td{
+    border-right: 1px solid #898989;  
+}
+.\:5{   
+    width: 350px;
+    height: 30px;
+    overflow: hidden;
+}
+.table_inner {
+	border-top: 1px solid #898989;
+	margin-top: 15px;
+        margin-bottom: 100px;
+}
+.\:0,.\:6{
+    text-align: center;
+}
+.\:2 a:link,.\:2 a:hover,.\:2 a:visited{
+    color: #000;
+}
+input[type="button"],input[type="submit"],input[type="reset"] {
+	border: none;
+	width: auto;
+	padding: 5px;
+	margin-left: 10px;
+	cursor: pointer;
+    border-radius: 5px;
+}
+input[type="button"]:hover,input[type="submit"]:hover,input[type="reset"]:hover,input[type="checkbox"]:hover {
+	background-color: #bfbfbf;
+    box-shadow: 0px 0px 3px 2px red;
+}
+input[type="checkbox"] {
+	cursor: pointer;
+}
+input[type="text"],input[type="number"],.Add input[type="file"]{
+	border: none;
+	border-radius: 5px;
+	padding: 5px;
+	padding-left: 10px;
+        width: 305px;
+}
+textarea{
+    border: none;
+	border-radius: 5px;
+	padding: 5px;
+	padding-left: 10px;
+    width: 305px;
+    resize: none;
+}
+.Add select{
+    border: none;
+	border-radius: 5px;
+	padding: 5px;
+	padding-left: 10px;
+    width: 320px;
+}
+
+input:hover,select:hover,textarea:hover{
+    background-color: #bfbfbf;
+    box-shadow: 0px 0px 3px 2px red;
+}
+.view-img img {
+	display: none;
+	width: 300px;
+}
+.view-img {
+	position: fixed;
+	z-index: 5;
+	top: 25%;
+	right: 30%;
+	left: 30%;   
+        cursor: pointer;
+}
+.imgs{
+    cursor: pointer;
+}
+
+.\:9u {
+	width: 250px;
+	overflow: hidden;
+}
+.\:0u {
+	text-align: center;
+}
+.color {
+	color: white;
+}
+.rd-in {
+	cursor: pointer;
+}
+.adduser input[type="email"],.adduser input[type="password"]{
+	border: none;
+	border-radius: 5px;
+	padding: 5px;
+	padding-left: 10px;
+        width: 305px;
+}
+.adduser input[type="text"],.adduser input[type="number"]{	
+        width: 305px;
+}
+.adduser input[type="submit"] {
+	margin: 0 auto;
+	float: right;
+	margin-top: 15px;
+}
+
+textarea {
+	width: 305px;
+	height: 100px;
+}
+.adduser select{
+	border: none;
+	border-radius: 5px;
+	padding: 5px;
+	padding-left: 10px;
+        width: 320px;
+}
+.Add-user {
+	position: relative;
+	width: 450px;
+	border: none;
+	box-shadow: 0 0 10px 1px gray;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	padding-bottom: 50px;
+}
+.Add-user h2 {
+	text-align: center;
+	background: dimgray;
+	margin: 0 auto;
+	font-weight: lighter;
+}
+.frm-in {
+	margin-top: 15px;
+}
+.err {
+	float: right;
+	color: red;
+	font-size: 12px;
+}
+.err.err-sm {
+	float: left;
+}
+.\:2 {
+	width: 200px;
+	overflow: hidden;
+}

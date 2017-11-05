@@ -1,0 +1,146 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 5, 2017, 3:31:02 PM
+    Author     : hackey.jay
+*/
+
+.logo {
+    float: left;    
+    font-size: 26px;
+    color: white;
+    border-right: 1px solid;
+    padding: 5px;
+    cursor: pointer;
+}
+.logo:hover{
+    color: #338fdc;
+}
+#all_nav {
+	padding: 25px;
+}
+#list {
+	padding-left: 15px;
+}
+.left_nav, #home, .product , #btn {
+    float: left;
+    padding-left: 5px;
+}
+#inner{
+    margin-top: 15px;
+}
+a:visited{
+    color: whitesmoke;
+    text-decoration: none;
+}
+a:active{
+    color: whitesmoke;
+    text-decoration: none;
+}
+a:hover {
+    text-shadow: 0px 0px #fff;
+    text-decoration: none;
+}
+a:link{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.nav{
+    position: relative;
+    width: 100% !important;
+    border: 1px solid;
+    background-color: #232f3e;
+    height: auto;
+    z-index: 50;
+}
+.right_nav {
+	float: right;
+}
+.cart_sub {
+	position: absolute;
+        display: none; 
+	background-color: #fff;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	border-radius: 10px;
+	overflow: hidden;
+	width: 60px;
+	margin-left: -15px;
+}
+.prod_sub, .sign_sub {
+    position: absolute;
+    display: none;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 5;
+}
+.sub_hover {
+    padding: 0.5px;
+    text-align: center;
+}
+.prod_sub {
+    margin-left: -50px;
+}
+.contact ,.about,.cart,.Sign{
+    float: left;
+    padding-left: 5px;
+}
+.sign_sub {
+    position: absolute;
+    display: none;
+    text-align: center;
+    margin-left: -13px;
+    width: 80px;
+}
+.Sign:hover .sign_sub {
+    display: block;
+}
+.product:hover .prod_sub {
+    display: block;
+}
+.cart:hover .cart_sub {
+    display: block;
+}
+#btn {
+    padding-top: 5px;
+    width: 200px;
+}
+.sub_hover h5{
+    color: #000;
+}
+.sub_hover:hover{
+    background-color: #f1f1f1;
+    color: #000 !important;
+    display: block;
+}
+
+.log_resp{
+    display: none;
+    position: absolute;
+    z-index: 30;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    height: 1000px;
+}
+
+.user h3,.user{    
+    color: #fff;
+    float: left;
+    margin-top:  3px;
+    margin-left: 10px;
+}
+.status {
+    color: red;
+	float: left;
+	margin-left: 10px;
+        margin-top: 10px;
+}
+.color{
+    color: #fff;
+    
+}

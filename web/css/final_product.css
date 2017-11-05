@@ -1,0 +1,69 @@
+/* 
+    Created on : Oct 12, 2017, 1:52:15 AM
+    Author     : hackey.jay
+*/
+.Product{
+    color: #fff;
+}
+.details img{
+    width: 300px;
+    height: 400px;
+}
+.prod_img{
+    margin-left: 50px;
+    position: absolute;
+}
+.prod_in{
+    height: 700px;
+    position: absolute;
+}
+.details{
+    width: 70%
+}
+.prod_desp{
+    width: 50%;
+    float: right;
+    text-align: justify;
+    margin-top: 200px;
+}
+.cart_option {
+	float: right;
+	margin-top: 150px;
+	background-color: #585858;
+	border-radius: 10px;
+	padding: 10px;
+	position: relative;
+	left: -10px;
+        height: 65px;
+}
+.range {
+	position: absolute;        
+	padding: 4px;
+}
+.range input{
+    color: #000;
+    border: none;
+    width: 50px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+}
+.btn-cart {
+	float: right;
+        color: black;
+}
+.inside_menu {
+  width: 260px;
+  text-align: center;
+}
+
+.cart-result {
+	color: #ff0017;
+	position: absolute;
+	bottom: 0;
+	right: 20px;
+}
+.prc_view {
+	float: right;
+	padding-left: 5px;
+}

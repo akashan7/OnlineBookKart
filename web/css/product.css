@@ -1,0 +1,88 @@
+/* 
+    Created on : Oct 10, 2017, 1:49:05 PM
+    Author     : hackey.jay
+*/
+
+.prod_sample {
+    border: none;
+    background-color: #1d2b36;
+    height: 330px;
+    border-radius: 30px;    
+}
+.outer_prod{
+    height: 350px;
+}
+.prod_sel ul{
+    list-style-type: none;
+    float: left;
+    background-color: #1d2b36;
+    padding: 15px;
+}
+.prod_sel li{
+    padding: 20px;
+    color: #fff;
+    background-color: rgb(32, 62, 87);
+}
+.prod_sel li:hover{
+    background-color: #222;
+}
+
+.prod_data {
+    float: left;
+    margin-left: 200px;
+    overflow-x:auto;
+    height: 330px;
+    position: absolute;
+    overflow-y: hidden;
+    width: 75%;    
+}
+.prod_split .data{
+    float: left;
+    width: 225px;
+    padding-top: 20px;
+    
+}
+.prod_split .data_content{
+    color: #fff;
+    height: 300px;
+}
+.data_content img{
+    width: 200px;
+    height: 230px;
+}
+.Up_come{
+    display: none;
+}
+.Marketing{
+    display: none;
+}
+.Love_books{
+    display: none;
+}
+.Science{
+    display: none;
+}
+.prod_sel a{
+    cursor: pointer;
+}
+.data_final{
+    float: right;
+    margin-top: 125px;    
+    padding: 25px;
+    background-color: gray;
+    border-radius: 60px;
+    cursor: pointer;
+    position: relative;
+    right: 40px;
+    z-index: 3;
+}
+.data_All{
+    background:no-repeat center/50px url("../img/arrow_all.png");
+    width: 26px;
+    height: 30px;
+    transform: rotate(-90deg);    
+}
+.data_content h3 {
+	overflow: hidden;
+	height: 55px;
+}

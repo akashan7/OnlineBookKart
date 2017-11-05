@@ -1,0 +1,31 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 6, 2017, 11:59:20 PM
+    Author     : hackey.jay
+*/
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 80%;
+      height: 400px;
+      margin: auto;
+  }
+#container{
+      width: 100% !important;
+}
+.carousel-inner .item .carousel-caption{
+    border-radius: 5px;
+    background-color: gray;
+    opacity: 0.8;
+}
+.carousel-inner .item .carousel-caption h3,.carousel-inner .item .carousel-caption p{
+    color: #fff !important;
+}
+#myCarousel{
+    border-radius: 10px;
+    overflow: hidden;
+}

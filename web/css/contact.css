@@ -1,0 +1,85 @@
+.inner_con{
+    font-family: 'Anaheim'!important;
+    height: 495px !important;
+}
+
+.con_left{
+    float: left;
+    position: relative;
+    width: 40%;
+    left: 10%;
+    color: #fff;
+}
+.con_left h3,.con_left p{
+    text-align: left;
+}
+.con_right{
+    text-align: left;
+    float: right;
+    position: relative;
+    width: 40%;
+    margin-top: 80px;
+}
+.list_li{
+    padding-top: 15px;
+}
+.con_text{
+    color: #fff;
+}
+.txt_area{
+    height: 150px !important;
+    resize: none;
+}
+.outer_con{
+    margin-top: 3% !important;
+}
+.imgs{
+    position: relative;
+    list-style: none;
+}
+.imgs li{
+    position: absolute;
+    height: 45px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.fb{
+    width: 45px;
+    left: 0px;
+    background: url("../img/contact.png") 294px 237px;
+}
+.gm{
+    width: 45px;
+    left: 55px;
+    background: url("../img/contact.png") 233px 173px;
+}
+.tw{
+    width: 45px;
+    left: 110px;
+    background: url("../img/contact.png") 475px 237px;
+}
+.fb:hover{
+    width: 45px;
+    left: 0px;
+    background: url("../img/contact.png") 294px 397px;
+}
+.gm:hover{
+    width: 45px;
+    left: 55px;
+    background: url("../img/contact.png") 233px 333px;
+}
+.tw:hover{
+    width: 45px;
+    left: 110px;
+    background: url("../img/contact.png") 475px 397px;
+}
+.btn-info {
+    color: #009696 !important;
+    background-color: transparent !important;
+    border-color: #00c4ff !important;
+}
+.btn-info:hover {
+    color: #fff !important;
+    background-color: #5bc0de !important;
+    border-color: #00c4ff !important;
+}

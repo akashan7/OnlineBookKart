@@ -1,0 +1,140 @@
+/* 
+    Created on : Oct 11, 2017, 9:06:26 AM
+    Author     : hackey.jay
+*/
+
+.prod_list{
+    float: left;
+}
+.prod_list img{
+    width: 200px;
+    height: 220px;
+    border-radius: 20px;
+}
+.design_bd{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.headding{
+    width: 99%;
+    height: 70px;
+    background-color: #1d2b36;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.all_prod{
+    color: #fff !important;
+    width: 80%;
+    float: right;
+    position: relative;
+    margin-bottom: 100px;
+}
+.search_item{
+    width: 20%;
+    height: 500px;
+    position: absolute;
+    padding: 10px;
+    background-color: #1d2b36;
+    margin-top: 10px;
+    color: #fff;
+}
+.price_tag{    
+    padding: 2px;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+.price:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+.price{
+    opacity: 0.5;
+}
+input.price::-moz-range-thumb {
+        background: #fff;
+	border-radius: 50%;
+        border: none;
+	width: 15px;
+	height: 15px;
+}
+input[type="range"]{
+    -webkit-appearance: none !important;
+    outline: none;
+}
+input.price{
+    -webkit-appearance: none;
+    height: 2px;
+}
+input.price::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    border:none;
+    background: #fff;
+}
+input.price::-webkit-slider-runnable-track{
+    border-radius: 3px;
+    outline: none;
+}
+.over{
+    margin-top: 50px;
+}
+div.meter{
+    margin-top: 5px;
+}
+.p_f{
+    position: absolute !important;
+    float: left;
+}
+.over p:last-child{
+    float: right;
+}
+.prod_list{
+    width: 250px;
+    padding-top: 25px;
+    border-radius: 30px;
+    margin-bottom: 25px;
+}
+.sort{    
+    position: absolute;
+    right: 10px;
+    padding: 25px;
+}
+.sort select{
+    border: none;
+    width: 70px;
+}
+.sort select{
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid #7b7b7b; 
+}
+.sort select option{
+    border: 1px solid #7b7b7b;
+    background-color: black;
+}
+.prc{
+    position: relative;
+    background-color: #636363;
+    width: 200px;
+    bottom: 50px;
+    height: 25px;
+    opacity: 0.9;
+    cursor: pointer;
+    left: 0px;
+    padding: 3px;
+}
+.tit_pro {
+    position: relative;
+    bottom: 20px;
+    overflow: hidden;
+    height: 20px;
+}
+.nav-finder {
+	width: 200px;
+	float: left;
+	margin-top: 25px;
+	margin-left: 20px;
+}

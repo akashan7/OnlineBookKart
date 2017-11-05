@@ -1,0 +1,48 @@
+/* 
+    Created on : Oct 12, 2017, 10:55:47 AM
+    Author     : hackey.jay
+*/
+
+.About{
+    color: #fff;
+    padding: 50px;
+    height: 800px;    
+}
+.para{
+    width: 60%;
+    margin-left: 60px;
+    font-size: 16px;
+    text-align: justify;
+}
+.para p:first-child:first-letter{
+    font-size: 40px;
+    color: red;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.About_car{
+    width: 70%;
+    height: 700px;
+    position: absolute;
+    margin-top: 50px;
+}
+.About_car div:first-child{
+    position: absolute;
+}
+.control{
+    cursor: pointer;
+    float: right;
+    width: 60px;
+    margin-top: 150px;
+}
+.control div:last-child{
+    float: right;
+}
+.About_car div img{
+    width: 700px;
+    height: 300px;
+}
+.control div:nth-child(2){
+    position: absolute;
+    margin-left: 20px;
+}

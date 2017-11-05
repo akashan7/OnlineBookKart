@@ -1,0 +1,116 @@
+/* 
+    Created on : Oct 15, 2017, 10:04:57 PM
+    Author     : hackey.jay
+*/
+
+.edit {
+  float: left;
+}
+.home {
+  float: left;
+}
+.UserEdit {
+  float: left;
+}
+.right_pos {
+  float: right;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-left: 2px solid;
+  height: 50px;
+}
+.left_all,.home,.edit,.UserEdit {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.nav {
+  width: 100%;
+  font-family: Anaheim;
+  margin: 0 auto;
+}
+a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+a:link{
+  color: #fff;
+  text-decoration: none;
+}
+a:visited{
+  color: #fff;
+  text-decoration: none;
+}
+a:after{
+  color: #fff;
+  text-decoration: none;
+}
+.user_sub_edit {
+	background-color: #5a5a5a;
+	display: none;
+	margin-top: -5px;
+	text-align: center;	
+}
+.prod_sub_edit {
+  background-color: #5a5a5a;
+  display: none;
+  margin-top: -5px;
+  text-align: center;
+}
+.edit:hover .prod_sub_edit{
+  display: block;
+}
+.UserEdit:hover .user_sub_edit{
+  display: block;
+}
+.outline {
+	width: auto;
+	background-color: #5a5a5a;
+	height: 50px;
+	border-radius: 11px;
+	position: relative;
+}
+.Greet {
+	font-family: Comic Sans MS;
+	color: #fff;
+}
+body{
+  background-color:  #0e0e0e;
+}
+.sub:hover,.sub p:hover{
+  background: black;
+}
+
+.sub {
+  padding: 0.1px;
+  border-bottom: 0.1px solid;
+}
+.home,.UserEdit,.edit{
+  height: 50px;
+  border-right: 2px solid;
+}
+.home:hover,.edit:hover,.UserEdit:hover{
+  background-color: #000;
+}
+.right_pos:hover{
+  background-color: #000;
+}
+
+.Add {
+	position: relative;
+	width: 450px;
+	border: none;
+	box-shadow: 0 0 10px 1px gray;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.form_add {
+	padding: 50px;
+}
+.inner_content {
+	margin-top: 60px;
+}
+.Add.color h2 {
+	margin: 0 auto;
+	background-color: dimgray;
+	font-weight: lighter;
+}

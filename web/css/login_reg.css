@@ -1,0 +1,46 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 7, 2017, 11:14:21 AM
+    Author     : hackey.jay
+*/
+:root{
+    color: #fff !important;
+}
+td{
+    padding: 10px;
+}
+#close {
+	border: 1px solid;
+	border-radius: 10px;
+	width: 42%;
+	padding: 10px;
+	margin-top: 2em;
+	height: auto;
+	color: #fff !important;
+	font-family: 'Anaheim',"Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+#cross {
+	color: red;
+	cursor: default;
+	position: relative;
+	float: right;
+	z-index: 0;
+}
+#cross:hover{
+    color: transparent;
+    text-shadow: 2px 2px red;
+}
+#r_size{
+    height: 800px !important;
+}
+.rtab{
+    width: 80% !important;
+}
+#address{
+    resize: none;
+}
+

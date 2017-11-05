@@ -1,0 +1,62 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 5, 2017, 6:31:19 PM
+    Author     : hackey.jay
+*/
+
+.header{
+    position: relative;
+    top: 0px;
+    width : 100% !important;
+}
+.footer{
+    position: fixed;
+    bottom: 0px;
+    width : 100% !important;
+    z-index: 30;
+}
+.content{
+    
+    margin-top: 3px;
+}
+.carousel-inner > .carousel-item > img,
+  .carousel-inner > .carousel-item > a > img {
+      width: 70%;
+      margin: auto;
+      height: 500px;
+}
+body{
+    background-color: #fff;
+    margin: 0px !important;
+    background-image: url("../img/bg.png");
+    background-repeat: repeat;
+    font-family: 'Anaheim',"Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+@font-face {
+  font-family: 'Anaheim';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Anaheim'), local('Anaheim-Regular'), url(fonts/UksPHcP0JWbD5D-eu-EeFA.woff2) format('woff2');
+}
+.main{
+    width: 100%;
+    margin: 0px auto;
+    margin-bottom: 150px;
+}
+.prod {
+	height: auto;
+	padding-bottom: 10%;
+}
+.color {
+	color: #fff;
+}
+.bcolor{
+    color: #000;
+}
+.bgcolor{
+    background-color: #fff;
+}
